@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: landing                  # The dbt internal name for this source
+  - name: bg-landing                  # The dbt internal name for this source
     database: claude-project-509920     # Your Google Cloud Project ID
     schema: landing                   # The exact dataset name in BigQuery
     tables:

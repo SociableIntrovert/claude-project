@@ -1,2 +1,2 @@
 select *
-from {{source('landing', 'products')}}
+from {{source('bg-landing', 'products')}}
